@@ -81,6 +81,9 @@ if __name__ == '__main__':
                                   cfg.SOLVER.WARMUP_FACTOR,
                                   cfg.SOLVER.WARMUP_EPOCHS, cfg.SOLVER.WARMUP_METHOD,last_epoch)
 
+
+
+    # test
     last_epoch = 0 if last_epoch ==-1 else last_epoch
     do_train(
         cfg,
